@@ -1,0 +1,13 @@
+*.aux
+*.log
+*.out
+*.toc
+*.gz
+*.xlsx
+Timetable*
+abstracts/tex/*
+
+*.pdf
+!main.pdf
+!booklet*pdf
+

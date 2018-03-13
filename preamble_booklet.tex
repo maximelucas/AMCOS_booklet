@@ -1,0 +1,236 @@
+%
+% COLORS
+%
+
+\definecolor{myorange}{RGB}{255,117,40}
+\definecolor{mygray}{RGB}{164, 168, 172}
+\definecolor{mywhite}{RGB}{235, 238, 231}
+\definecolor{myblue}{RGB}{52, 115, 116}
+
+\newcommand{\primarycolor}{myblue}
+\newcommand{\secondarycolor}{mywhite}
+\newcommand{\ternarycolor}{mywhite}
+
+%
+% BOOKLET VERSIONS
+%
+
+% check if already defined from the command line, if not define \ifOnline
+\makeatletter
+\@ifundefined{ifOnline}{%
+	\expandafter\newif\csname ifOnline\endcsname
+	\Onlinefalse % change to false for printed version
+}{}
+\makeatother
+
+% define \type to input the right version of the abstracts
+\ifOnline
+\newcommand{\type}{o}
+\else
+\newcommand{\type}{p}
+\fi % end if
+
+
+%
+% ABSTRACT ENVIRONMENTS
+%
+
+%----------------------------------------
+% online abstract environment
+%----------------------------------------
+\newenvironment{abstract_online}[4] %{title}{author}{affiliation}{type}
+{\filbreak %avoid page break
+	
+	{\large \bfseries #1}
+	
+	{\bfseries \itshape #2} \hfill {#3}
+	
+	\textcolor{mygray}{#4}
+	
+}
+{}
+
+%----------------------------------------
+% talk abstract environment (printed)
+%----------------------------------------
+\newenvironment{abstract}[4] %{title}{author}{affiliation}
+{\filbreak %avoid page break
+	
+	{\large \bfseries #1}
+	
+	{\bfseries \itshape #2,} \textcolor{mygray}{#3} \hfill {#4}
+	
+	
+}
+{}
+
+%----------------------------------------
+% poster abstract environment (printed)
+%----------------------------------------
+\newcommand{\poster}[3] %{title}{author}{affiliation}
+{\filbreak %avoid page break
+	
+	{\bfseries \large #1} \\	
+	\tab #2, \textit{#3}
+	
+}
+{}
+
+%----------------------------------------
+% tags for talk type (colored circle in abstracts)
+%----------------------------------------
+
+\newcommand{\KLtag}{\tikz[baseline={([yshift=-.8ex]current bounding box.center)}]  \node[circle, inner sep=2pt, minimum size=0.5em, color=black, fill=\KLcolor]{\small \bfseries KL};} %colored circle with tag
+
+\newcommand{\IStag}{\tikz[baseline={([yshift=-.8ex]current bounding box.center)}]  \node[circle, inner sep=2pt, minimum size=0.5em, color=black, fill=\IScolor]{\small \bfseries IS};} %colored circle with tag
+
+\newcommand{\CTtag}{\tikz[baseline={([yshift=-.8ex]current bounding box.center)}]  \node[circle, inner sep=2pt, minimum size=0.5em, color=black, fill=\CTcolor]{\small \bfseries CT};} %colored circle with tag
+
+\newcommand{\ITtag}{\tikz[baseline={([yshift=-.8ex]current bounding box.center)}]  \node[circle, inner sep=2pt, minimum size=0.5em, color=black, fill=\ITcolor]{\small \bfseries IT};} %colored circle with tag
+
+
+%
+% PAGE LAYOUT DEFINITIONS
+%
+\usepackage{etoolbox}
+
+%------------------------------------------------------
+% page style: vertical line on the side of each page
+%------------------------------------------------------
+\usepackage[scale=1,angle=0,opacity=1]{background}
+\backgroundsetup{contents={}}
+
+\AddEverypageHook{%
+\ifthenelse{%
+	\isodd{\thepage} \AND  \thepage>1 % if odd page but not front page
+	}{%
+	\backgroundsetup{
+		color=\secondarycolor,
+		position=current page.south east,%
+		nodeanchor=south east,
+		contents={\rule{10pt}{0.66\paperheight}}
+		}
+	}{%
+	% nothing
+	}
+%
+\ifthenelse{% 
+	\NOT \isodd{\thepage} \AND \NOT \thepage=44% if even page
+	}{%
+	\backgroundsetup{
+		color=\secondarycolor,
+		position=current page.south west,%
+		nodeanchor=south west,
+		contents={\rule{10pt}{0.66\paperheight}}
+		}
+	}{%
+	% nothing
+	}
+\BgMaterial}
+
+%\AddEverypageHook{%
+%\ifthenelse{%
+%	\isodd{\value{page}}
+%}
+%    {\backgroundsetup{
+%        color=\secondarycolor,
+%        position=current page.south east,%
+%        nodeanchor=south east,
+%        contents={\rule{10pt}{0.66\paperheight}}
+%    }%  
+%    }%
+%    {\backgroundsetup{
+%        color=\secondarycolor,
+%        position=current page.south west,%
+%        nodeanchor=south west,
+%        contents={\rule{10pt}{0.66\paperheight}}
+%    }%
+%    }%
+%\BgMaterial}
+
+%---------------------------------------------------
+% chapter heading style
+%---------------------------------------------------
+
+\newdimen\mybarpadding
+\mybarpadding=1.5em\relax %padding between gcolored bar and chapter name
+
+\RedeclareSectionCommand[%
+    ,afterskip=4em plus 1pt minus 1pt%
+    ,beforeskip=-1pt%1.2em plus 1pt minus 1pt%
+    ,level=0%
+    ,toclevel=0%
+]{chapter}%
+
+\setkomafont{chapter}{\normalfont\normalsize\bfseries\Huge} % koma-script-specific command
+
+\newcommand*{\mynumberedtest}[1]{% to test whether there is a number
+  \if\relax\detokenize{#1}\relax%
+  \else%
+    #1%
+    
+  \fi}
+%---------------------------\makeatletter----------------------chapter style definition
+
+\renewcommand{\chapterlinesformat}[3]{%
+  \ifthispageodd{%
+    \hfill%
+    \raisebox{-0.2em}{%
+      \makebox[0pt][r]{\textcolor{\primarycolor}{\rule{\paperwidth}{1em}}}%
+    }%
+    \hspace{\mybarpadding}%
+% 	\mynumberedtest{#2}
+	\mbox{#3}%
+  }{%
+%    \hbox{%
+%       \mynumberedtest{#2}
+      \mbox{#3}%
+      \hspace{\mybarpadding}%
+      \raisebox{-0.2em}{%
+        \makebox[0pt][l]{\textcolor{\primarycolor}{\rule{\paperwidth}{1em}}}%
+      }%
+%    }%
+  }%
+}
+\makeatother
+%---------------------------------------------------------
+
+% TIMETABLE COLORS AND STYLES
+
+% text and backgroud colors
+\newcommand{\tbg}{gray} % background
+\newcommand{\tfg}{white}
+\newcommand{\tbc}{gray!25}
+
+% talk types colors
+\newcommand{\IScolor}{myblue!65} % invited speaker
+\newcommand{\CTcolor}{white} % contributed talk
+\newcommand{\KLcolor}{myorange!45} % keynote lecture
+\newcommand{\ITcolor}{yellow!25} %
+
+% row types
+\newcommand{\tablebreak}[2]{% {time span}{break name}
+	\rowcolor{\tbc} #1 &  \multicolumn{4}{c|}{\bfseries #2} \\ \hline }
+\newcommand{\eventtype}[2]{% {time span}{event name}
+	#1& \multicolumn{4}{c|}{\cellcolor{\tbg}\color{\tfg}\bfseries #2} \\ \hline }
+
+% column spacing and position
+\newcolumntype{L}[1]{%
+	>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{%
+	>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{%
+	>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+%\newcommand{\mytable}{|C{0.15\linewidth}| C{0.05\linewidth}|  C{0.25\linewidth} C{0.1\linewidth} C{0.5\linewidth}|}
+
+\newcommand{\IS}[5]{% {time span}{name}{University}{City, Country}{title}
+	#1 &\cellcolor{\IScolor}IS&{\bfseries#2}\newline #4&&#5 \\ \hline}
+\newcommand{\CT}[5]{%
+	#1 &\cellcolor{\CTcolor}CT&{\bfseries#2}\newline #4&&#5 \\ \hline}
+\newcommand{\KL}[5]{%
+	#1 &\cellcolor{\KLcolor}KL&{\bfseries#2}\newline #4&&#5 \\ \hline}
+\newcommand{\IT}[5]{%
+	#1 &\cellcolor{\ITcolor}IT&{\bfseries#2}\newline #4&&#5 \\ \hline}
+\newcommand{\tutorial}[5]{%
+	#1 && {\bfseries#2}\newline #4 &&#5 \\ \hline}

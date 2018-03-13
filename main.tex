@@ -1,0 +1,142 @@
+\documentclass[openany, parskip=full, 12pt, a4]{scrbook}
+
+\input{preamble}
+\input{preamble_booklet}
+	
+\begin{document}
+
+\includepdf{cover}	
+	
+\mbox{}
+\thispagestyle{empty}
+\vfill
+\begin{center}
+	\ifOnline
+	The electronic version of this booklet can be found at: \\
+	https://amcosconference.com/
+	\else
+	This is the short version of the booklet for print use. Full abstracts with all authors, references, and figures can be found in the electronic version at \url{https://amcosconference.com/}
+	\fi % end if
+	\\[20pt]
+	The codes used to generate this booklet, including the \LaTeX\space template, are available at \url{https://github.com/maximelucas/AMCOS\_booklet}
+\end{center}
+
+\newpage
+
+\tableofcontents
+
+\chapter{About}
+
+{\small \textcolor{myblue}{This is a generic version of the real AMCOS conference booklet for which this \LaTeX{} template was generated. All information about the use and distribution of this template, and all related codes, can be found at \url{https://github.com/maximelucas/AMCOS\_booklet}.}}
+
+\section{AMCOS}
+The conference on Analysis and Modeling of Complex Oscillatory Systems (AMCOS) aims to bring together theoretical and experimental researchers working on the state of the art in the field of complex oscillatory systems.
+
+The main topics of the conference comprise both (a) the modeling of complex systems and the emergence of collective behavior, as well as (b) the analysis of complex data sets in order to infer the underlying structure and functionality of networks. Particular focus will be put on oscillatory phenomena in neuroscience.
+
+\section{COSMOS}
+
+The AMCOS Conference is organized by the Early Stage Researchers (ESRs) of the Marie Curie Initial Training Network led by Arkady Pikovsky of Potsdam Univeristy. COSMOS trains 15 ESRs at the interface between Physics, Applied Mathematics, and Life Sciences, integrating theoretical and data-driven methods, in 7 universities across Europe.
+
+\section{Organizing committee}
+\begin{center}
+\begin{tabular}{lll}
+Gloria Cecchini & Marco Faggian &  Aleksandra Pidde \\
+Rok Cestnik & R. Janis Goldschmidt &  Bastian Pietras\\
+ Pau Clusella  & Marc Grau Leguia & Eero Satuvuori \\
+ Nicolás Deschle & Maxime Lucas   &  Çağdaş Topçu \\
+Federico Devalle  & Irene Malvestio  & Clément Zankoc 
+\end{tabular}
+\end{center}
+
+
+
+% timetable ---------------------------------------------------------------------------
+\chapter{Timetable}
+
+CT: Contributed Talk, IS: Invited Speaker, KL: Keynote Lecture, IT: Invited Talk.
+\input{timetable.tex}
+
+% talks ---------------------------------------------------------------------------
+\chapter{List of Abstracts -- Talks}
+
+\section{Tuesday 20th}
+
+\input{abstracts/tex/t\type_tremblay}
+\input{abstracts/tex/t\type_fournier}
+\input{abstracts/tex/t\type_sato}
+\input{abstracts/tex/t\type_smith}
+\input{abstracts/tex/t\type_rodriguez}
+\input{abstracts/tex/t\type_jansen}
+
+\section{Thursday 22nd}
+
+\input{abstracts/tex/t\type_schmidt}
+% posters ----------------------------------------------------------------------------------------------
+\chapter{List of Posters} 
+
+\vspace{-2.5em}
+
+\section{Tuesday Session}
+
+
+\input{abstracts/tex/p\type_doe}
+\input{abstracts/tex/p\type_doe}
+\input{abstracts/tex/p\type_doe}
+\input{abstracts/tex/p\type_doe}
+\input{abstracts/tex/p\type_doe}
+\input{abstracts/tex/p\type_doe}
+\input{abstracts/tex/p\type_doe}
+\input{abstracts/tex/p\type_doe}
+
+
+% list of participants
+%----------------------------------------------------------------------------
+\chapter{List of Participants}
+ 
+\input{list_of_participants}
+ 
+
+% venue + useful info ----------------------------------------------------------------------------
+\chapter{Useful Information}
+
+\textbf{Talks} will be held at the \textbf{Conference Hall-Auditorium} of PRBB. It is situated on the first floor of the central courtyard and
+has independent access from the rest of the building (through stairs located at the ground floor, main entrance of PRBB). 
+
+\textbf{Coffee breaks and lunches} will be offered in the half-covered terrace in front of the main entrance of the conference hall.
+
+The \textbf{poster session} will be held on Tuesday and Wednesday night on the \textbf{ground floor} of the PRBB. 
+
+Wi-Fi will be available during the conference. The PRBB also provides access to an eduroam network.
+
+The \textbf{conference dinner} will be held at the "The best restaurant", at Some Street, 39, Barcelona.
+
+\section{How to get to the PRBB?}
+
+The PRBB building overlooks the Ronda del Litoral and is next to the twin towers of the Olympic Village: Torre Mapfre and Arts Hotel. The address is Carrer del Dr. Aiguader, 88, 08003 Barcelona, Spain. and and can be reached by:
+
+\begin{itemize}
+
+	\item \textbf{Subway:} yellow line, L4, station Ciutadella/Vila Ol\'{i}mpica,
+	\item \textbf{Bus:} lines V21, 14, 36, 41, 45, 59, 71, 92, D20,
+	\item \textbf{Tram:} line 4, stop Vila Ol\'{i}mpica.
+	
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=\linewidth]{images/amcos_map}
+\end{center}
+
+
+\chapter{Partner Institutions and Sponsors}
+
+\input{logos.tex}
+
+
+\newpage
+
+\pagecolor{myblue}
+\thispagestyle{empty}
+\mbox{}
+
+\end{document}
