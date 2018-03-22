@@ -1,6 +1,6 @@
 # AMCOS Conference booklet files
 
-For more information about the AMCOS conferences, go to [https://amcosconference.com/](https://amcosconference.com/).
+For more information about the AMCOS conference, go to [https://amcosconference.com/](https://amcosconference.com/).
 
 
 

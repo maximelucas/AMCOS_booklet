@@ -128,25 +128,6 @@
 	}
 \BgMaterial}
 
-%\AddEverypageHook{%
-%\ifthenelse{%
-%	\isodd{\value{page}}
-%}
-%    {\backgroundsetup{
-%        color=\secondarycolor,
-%        position=current page.south east,%
-%        nodeanchor=south east,
-%        contents={\rule{10pt}{0.66\paperheight}}
-%    }%  
-%    }%
-%    {\backgroundsetup{
-%        color=\secondarycolor,
-%        position=current page.south west,%
-%        nodeanchor=south west,
-%        contents={\rule{10pt}{0.66\paperheight}}
-%    }%
-%    }%
-%\BgMaterial}
 
 %---------------------------------------------------
 % chapter heading style
@@ -170,7 +151,8 @@
     #1%
     
   \fi}
-%---------------------------\makeatletter----------------------chapter style definition
+
+%-------------------------------------------------chapter style definition
 
 \renewcommand{\chapterlinesformat}[3]{%
   \ifthispageodd{%
