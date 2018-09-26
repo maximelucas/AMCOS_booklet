@@ -67,7 +67,7 @@ Abstract version without references or figures.
 
 ## Credits
 
-This template and all accompanying scripts were developped by Maxime Lucas and Pau Clusella.
-For any comments or questions, please contact ml.maximelucas@gmail.com.
-Please acknowledge any use of this template and link to this page.
+This template and all accompanying scripts were developped by Maxime Lucas and Pau Clusella.  
+For any comments or questions, please contact ml.maximelucas@gmail.com.  
+Please acknowledge any use of this template and link to this page.  
 
