@@ -55,11 +55,11 @@ Abstract version without references or figures.
 - get rid of non ascii characters (accents in author names, quotes, weird dashes)
 - after keys like "TITLE" no white space
 - if no references, do not write the REFS key at the end
+- figures can be included as in Latex files via the \includegraphics command
 
 
 ## TODO
 
-- [x] deal with two version of abstract (online without references)
 - [x] deal with figures
 - [x] deal with (underline) corresponding/speaking author
 - [ ] add links in online version?
