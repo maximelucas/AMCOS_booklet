@@ -57,14 +57,6 @@ Abstract version without references or figures.
 - if no references, do not write the REFS key at the end
 - figures can be included as in Latex files via the \includegraphics command
 
-
-## TODO
-
-- [x] deal with figures
-- [x] deal with (underline) corresponding/speaking author
-- [ ] add links in online version?
-- [x] check presenting author
-
 ## Credits
 
 This template and all accompanying scripts were developped by Maxime Lucas and Pau Clusella.  
