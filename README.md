@@ -4,11 +4,14 @@
 
 This is a LaTeX template for conference booklets, sometimes called booklets of abstracts. It includes an additional python script to automatise the management and inclusion of abstracts. The template also has an option to compile a short and a long version of the booklet, for print and online use, for example. The template is ready to use as is, but also easily customisable for willing users.
 
-This template was originally created in 2018 for the AMCOS conference, a 5-day physics international conference about complex oscillatory systems: [https://amcosconference.com/](https://amcosconference.com/).
+This template was originally created in 2018 for the AMCOS conference, a 5-day physics international conference about complex oscillatory systems: [https://amcosconference.com/](https://amcosconference.com/). 
+
+Other conferences using the AMCOS booklet template:
+- COMENG 2018
 
 ### Features
 
-- Ready templates for the following sections: About, Timetable, List of Abstracts (for talks), List of Abstracts (for posters), List of Participants, Useful Information, Partner Institutions and Sponsors.
+- Templates for the following sections: About, Timetable, List of Abstracts (for talks), List of Abstracts (for posters), List of Participants, Useful Information, Partner Institutions and Sponsors.
 
 - LaTeX environments to display the timetable, and a (long and short version of) list of abstracts, of posters, and of participants.
 
@@ -55,7 +58,7 @@ Abstract version without references or figures.
 - get rid of non ascii characters (accents in author names, quotes, weird dashes)
 - after keys like "TITLE" no white space
 - if no references, do not write the REFS key at the end
-- figures can be included as in Latex files via the \includegraphics command
+- figures can be included as in LaTeX files via the \includegraphics command
 
 ## Credits
 
