@@ -6,8 +6,11 @@ This is a LaTeX template for conference booklets, sometimes called booklets of a
 
 This template was originally created in 2018 for the AMCOS conference, a 5-day physics international conference about complex oscillatory systems: [https://amcosconference.com/](https://amcosconference.com/). 
 
-Other conferences using the AMCOS booklet template:
-- COMENG 2018
+Example conferences booklets using the AMCOS booklet template:
+- AMCOS: [pdf of long version](https://amcos.files.wordpress.com/2018/07/booklet_updated_july.pdf), [conference website](https://amcosconference.com/)
+- COMPENG 2018: [pdf of long version](http://compeng2018.ieeesezioneitalia.it/wp-content/uploads/2018/09/booklet.pdf), [conference website](http://compeng2018.ieeesezioneitalia.it/)
+
+Disclaimer: the documentation is work in progress.
 
 ### Features
 
@@ -63,6 +66,6 @@ Abstract version without references or figures.
 ## Credits
 
 This template and all accompanying scripts were developped by Maxime Lucas and Pau Clusella.  
-For any comments or questions, please contact ml.maximelucas@gmail.com.  
-Please acknowledge any use of this template and link to this page.  
+For any comments, suggestions, or questions, please contact ml.maximelucas@gmail.com.  
+Please acknowledge any use of this template and explicitly link to this page.  
 
