@@ -10,7 +10,6 @@ Example conferences booklets using the AMCOS booklet template:
 - AMCOS: [pdf of long version](https://amcos.files.wordpress.com/2018/07/booklet_updated_july.pdf), [conference website](https://amcosconference.com/)
 - COMPENG 2018: [pdf of long version](http://compeng2018.ieeesezioneitalia.it/wp-content/uploads/2018/09/booklet.pdf), [conference website](http://compeng2018.ieeesezioneitalia.it/)
 
-Disclaimer: the documentation is work in progress.
 
 ### Features
 
@@ -21,6 +20,10 @@ Disclaimer: the documentation is work in progress.
 - Automated management of abstracts via additional python script.
 
 - Automated creation of a short or long version of the booklet via a one-word option in the template. Creation of both via an additional bash script.
+
+- Easily customisable in terms of layout, colours, and content.
+
+Disclaimer: the documentation is work in progress.
 
 ## Workflow
 
