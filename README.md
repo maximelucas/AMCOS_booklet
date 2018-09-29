@@ -25,7 +25,9 @@ Example conferences booklets using the AMCOS booklet template:
 
 Disclaimer: the documentation is work in progress.
 
-## Workflow
+## How?
+
+### Workflow
 
 1. Create abstracts database: copy paste each abstract text from source (.pdf, .txt, .tex, ...) to a different .txt file
 2. Make basic formatting changes to the .txt
@@ -33,7 +35,7 @@ Disclaimer: the documentation is work in progress.
 4. Input each abstract .tex files into the main .tex file via \input command
 5. Compile the .tex project manually or with ./compile.sh to get both versions at once
 
-## Formatting ot the .txt file for each abstract
+### Formatting ot the .txt file for each abstract
 
 ```
 TITLE
