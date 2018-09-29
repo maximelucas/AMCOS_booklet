@@ -30,12 +30,14 @@ Disclaimer: the documentation is work in progress.
 ### Workflow
 
 1. Create abstracts database: copy paste each abstract text from source (.pdf, .txt, .tex, ...) to a different .txt file
-2. Make basic formatting changes to the .txt
+2. Make basic formatting changes to the .txt files
 3. Run the python script (.txt -> .tex)
 4. Input each abstract .tex files into the main .tex file via \input command
 5. Compile the .tex project manually or with ./compile.sh to get both versions at once
 
 ### Formatting ot the .txt file for each abstract
+
+Each abstract should saved as `p_name.txt` (`t_name.txt`) for a poster (talk). The name cannot contain any white space or underscore character.
 
 ```
 TITLE
