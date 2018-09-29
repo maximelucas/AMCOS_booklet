@@ -35,6 +35,22 @@ Disclaimer: the documentation is work in progress.
 4. Input each abstract .tex files into the main .tex file via \input command
 5. Compile the .tex project manually or with ./compile.sh to get both versions at once
 
+### Directory structure
+
+```
+-- main.tex
+-- other .tex files
+-- booklet.py
+-- compile.sh
+-- abstracts/
+    |-- txt/
+        |-- .txt files of abstracts created by user
+    |-- tex/
+        |-- .tex files for abstracts created by booklet.py
+-- images/
+    |-- image files for abstracts
+```
+
 ### Formatting ot the .txt file for each abstract
 
 Each abstract should be saved as `p_name.txt` (`t_name.txt`) for a poster (talk). The name cannot contain any white space or underscore character.
