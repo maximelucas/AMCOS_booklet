@@ -82,6 +82,7 @@ Abstract version without references or figures.
 - get rid of "artificial" dashes from end of lines
 - if only one affiliation, do NOT specify {1} after the author names
 - get rid of non ascii characters (accents in author names, quotes, weird dashes)
+- format exotic characters and accents as you would in LaTeX
 - after keys like "TITLE" no white space
 - if no references, do not write the REFS key at the end
 - figures can be included as in LaTeX files via the \includegraphics command
