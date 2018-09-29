@@ -37,7 +37,7 @@ Disclaimer: the documentation is work in progress.
 
 ### Formatting ot the .txt file for each abstract
 
-Each abstract should saved as `p_name.txt` (`t_name.txt`) for a poster (talk). The name cannot contain any white space or underscore character.
+Each abstract should be saved as `p_name.txt` (`t_name.txt`) for a poster (talk). The name cannot contain any white space or underscore character.
 
 ```
 TITLE
