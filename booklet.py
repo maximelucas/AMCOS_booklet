@@ -134,7 +134,7 @@ def txt2tex(file_name, verbose=False) :
     file_id = file_name[2:-4] # 'name'
 
     # READ .TXT FILE
-    with open(txt_dir + file_name, 'rb') as inputfile:
+    with open(txt_dir + file_name, 'rbU') as inputfile:
         reader = csv.reader(inputfile, delimiter='\n')
         data = [i[0] for i in reader]
 
