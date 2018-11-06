@@ -8,7 +8,7 @@ This template was originally created in 2018 for the AMCOS conference, a 5-day p
 
 Example conferences booklets using the AMCOS booklet template:
 - AMCOS: [pdf of long version](https://amcos.files.wordpress.com/2018/07/booklet_updated_july.pdf), [conference website](https://amcosconference.com/)
-- COMPENG 2018: [pdf of long version](http://compeng2018.ieeesezioneitalia.it/wp-content/uploads/2018/09/booklet.pdf), [conference website](http://compeng2018.ieeesezioneitalia.it/)
+- COMPENG 2018: [pdf of long version](http://compeng2018.ieeesezioneitalia.it/wp-content/uploads/2018/10/booklet_corretto3.pdf), [conference website](http://compeng2018.ieeesezioneitalia.it/)
 
 
 ### Features
