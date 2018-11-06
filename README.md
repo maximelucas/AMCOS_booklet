@@ -91,5 +91,6 @@ Abstract version without references or figures.
 
 This template and all accompanying scripts were developped by Maxime Lucas and Pau Clusella.  
 For any comments, suggestions, or questions, please contact ml.maximelucas@gmail.com.  
+Thanks to Thomas Kreuz for useful feedback and advice.
 Please acknowledge any use of this template and explicitly link to this page.  
 
