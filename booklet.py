@@ -33,8 +33,8 @@ if not os.path.isdir(txt_dir):
 def format_num_affs(string) : #---------------------------------------------
     """
     Format substring for affiliation numbers
-    input: string "{1,2}"
-    ouput: string "$^{1,2}$" 
+    Input: string "{1,2}"
+    Output: string "$^{1,2}$" 
     """
     
     if string == None:
@@ -47,10 +47,10 @@ def format_authors(authors): #----------------------------------------------
     """
     Format authors names into the uniform format F. LastName
     
-    input: single string containing all author names
-            e.g.: First1 Last1, 
-    output: single string formatted as e.g. 
-            F1. Last1, F2. Last2
+    Input: single string containing all author names, e.g.
+            "First1 Last1, First2 Last2"
+    Output: single string formatted as e.g. 
+            "F1. Last1, F2. Last2"
     """
 
     n_auth = len(authors)
@@ -116,15 +116,16 @@ def txt2tex(file_name, verbose=False) :
     (printed and online version) .tex files with the right 
     format to be used in the main booklet .tex file.
     
-    input: string with name of source .txt file
+    Input: string with name of source .txt file
            e.g.: t_name.txt (abstract for a talk), 
                  p_name.txt (abstract for a poster)
 
-    ouput: - to_name.tex file (online version)
-           - tp_name.txt file (printed version)
+    Output: - to_name.tex file (online version)
+            - tp_name.txt file (printed version)
            ("t" stands for talk, is replaced by "p" for poster) 
            
-    options: boolean "verbose", if true print info including 
+    Options: boolean "verbose"
+             if true, print info including 
              final text for the .tex files
     """
 
@@ -331,18 +332,19 @@ def txt2tex(file_name, verbose=False) :
     return online, printed
     
     
+#=======================================================================
 if __name__ == "__main__":
 
     verb = False
     if len(sys.argv) > 2 and sys.argv[2] == 'verbose':
         verb = True
-    if len(sys.argv) == 1 or sys.argv[1] == 'all':
+    if len(sys.argv) == 1 or sys.argv[1] == 'all': # process all .txt files
     
         for file_name in glob.glob(txt_dir + "*.txt"):
             #print file_name.split('/')[-1]
             online, talkp = txt2tex(file_name.split('/')[-1])
             
-    elif '.txt' in sys.argv[1]:
+    elif '.txt' in sys.argv[1]: # process single specified .txt file
     
         online, talkp = txt2tex(sys.argv[1], verbose=verb)
         
