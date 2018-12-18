@@ -9,3 +9,4 @@
 !cover.pdf
 dev.txt
 .gitignore
+!examples/*

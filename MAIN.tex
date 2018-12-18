@@ -1,0 +1,110 @@
+\documentclass[openany, parskip=full, 12pt, a4]{scrbook}
+
+\input{preamble}
+\input{preamble_booklet}
+	
+\begin{document}
+
+% COVER PAGE
+%--------------------------------------------------------------------
+\includepdf{cover}	
+	
+	
+% BLANK PAGE
+%---------------------------------------------------------------------
+\mbox{}
+\thispagestyle{empty}
+\vfill
+\begin{center}
+	\ifOnline
+	The electronic version of this booklet can be found at: \\
+	https://amcosconference.com/
+	\else
+	This is the short version of the booklet for print use. Full abstracts with all authors, references, and figures can be found in the electronic version at \url{https://amcosconference.com/}
+	\fi % end if
+	\\[20pt]
+	The codes used to generate this booklet, including the \LaTeX\space template, are available at \url{https://github.com/maximelucas/AMCOS\_booklet}
+\end{center}
+
+\newpage
+
+% TABLE OF CONTENTS 
+%---------------------------------------------------------------------
+\tableofcontents
+
+% ABOUT
+%---------------------------------------------------------------------
+\chapter{About}
+
+\input{about}
+
+% TIMETABLE 
+%---------------------------------------------------------------------
+\chapter{Timetable}
+
+CT: Contributed Talk, IS: Invited Speaker, KL: Keynote Lecture, IT: Invited Talk.
+\input{timetable.tex}
+
+% TALKS 
+%---------------------------------------------------------------------
+\chapter{List of Abstracts -- Talks}
+
+\section{Tuesday 20th}
+
+\input{abstracts/tex/t\type_tremblay}
+\input{abstracts/tex/t\type_fournier}
+\input{abstracts/tex/t\type_sato}
+\input{abstracts/tex/t\type_smith}
+\input{abstracts/tex/t\type_rodriguez}
+\input{abstracts/tex/t\type_jansen}
+
+\section{Thursday 22nd}
+
+\input{abstracts/tex/t\type_schmidt}
+
+% POSTERS
+%------------------------------------------------------------------
+\chapter{List of Posters} 
+
+\vspace{-2.5em}
+
+\section{Tuesday Session}
+
+\input{abstracts/tex/p\type_doe}
+\input{abstracts/tex/p\type_doe}
+\input{abstracts/tex/p\type_doe}
+\input{abstracts/tex/p\type_doe}
+\input{abstracts/tex/p\type_doe}
+\input{abstracts/tex/p\type_doe}
+\input{abstracts/tex/p\type_doe}
+\input{abstracts/tex/p\type_doe}
+
+
+% LIST OF PARTICIPANTS
+%------------------------------------------------------------------
+\chapter{List of Participants}
+ 
+\input{list_of_participants}
+ 
+% USEFUL INFO
+%------------------------------------------------------------------
+\chapter{Useful Information}
+
+\input{useful_info}
+
+% SPONSORS
+%------------------------------------------------------------------
+\chapter{Partner Institutions and Sponsors}
+
+\input{logos.tex}
+
+\newpage
+
+% BACK PAGE
+%-----------------------------------------------------------------
+
+\pagecolor{myblue}
+\thispagestyle{empty}
+\mbox{}
+
+\end{document}
