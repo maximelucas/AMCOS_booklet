@@ -15,11 +15,12 @@
 % BOOKLET VERSIONS
 %
 
-% check if already defined from the command line, if not define \ifOnline
+% If compilation is done with 'compile.sh', both versions (online and printed) are automatically compiled
+% If compilation is done from editor, choose which version to compile below
 \makeatletter
-\@ifundefined{ifOnline}{%
+\@ifundefined{ifOnline}{% % check if already defined from the command line, if not define \ifOnline
 	\expandafter\newif\csname ifOnline\endcsname
-	\Onlinefalse % change to false for printed version
+	\Onlinefalse %set to \Onlinefalse/\Onlinetrue for printed/online version
 }{}
 \makeatother
 
@@ -29,7 +30,6 @@
 \else
 \newcommand{\type}{p}
 \fi % end if
-
 
 %
 % ABSTRACT ENVIRONMENTS

@@ -7,7 +7,7 @@
 
 % COVER PAGE
 %--------------------------------------------------------------------
-\includepdf{cover}	
+\includepdf{cover}	% our cover was produced with canva.com
 	
 	
 % BLANK PAGE
@@ -22,8 +22,8 @@
 	\else
 	This is the short version of the booklet for print use. Full abstracts with all authors, references, and figures can be found in the electronic version at \url{https://amcosconference.com/}
 	\fi % end if
-	\\[20pt]
-	The codes used to generate this booklet, including the \LaTeX\space template, are available at \url{https://github.com/maximelucas/AMCOS\_booklet}
+	\\[20pt] % Please cite us by keeping the following line.
+	The open \LaTeX{} template, AMCOS\_booklet, used to generate this booklet is available at \url{https://github.com/maximelucas/AMCOS\_booklet}
 \end{center}
 
 \newpage
@@ -50,6 +50,11 @@ CT: Contributed Talk, IS: Invited Speaker, KL: Keynote Lecture, IT: Invited Talk
 \chapter{List of Abstracts -- Talks}
 
 \section{Tuesday 20th}
+
+% The following input commands automatically select the right version 
+% (print or online) version of the abstract's .tex
+% \type is defined in preamble_booklet.tex and equals:
+% 'o' (online) or 'p' (print)
 
 \input{abstracts/tex/t\type_tremblay}
 \input{abstracts/tex/t\type_fournier}
