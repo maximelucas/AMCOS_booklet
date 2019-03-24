@@ -88,19 +88,18 @@ Abstract version without references or figures.
 - if no references, do not write the REFS key at the end
 - figures can be included as in LaTeX files via the \includegraphics command
 
-## Cite
+### How to cite
 
-Please acknowledge any use of this template and explicitly link to this page.  
-
+Please acknowledge any use of this template and explicitly link to this page with:  
 `The open LaTeX template used to generate this booklet is available at https://github.com/maximelucas/AMCOS_booklet.`  
 
-We'd be happy to hear about your booklet, and to include it in our list above!
+We'd be happy to hear about your booklet, and include it in our list above!
 
-## Contact
+### Contact
 
 For any comments, suggestions, or questions, please contact us at ml.maximelucas [at] gmail.com.  
 
-## Credits 
+### Credits 
 
 This template and all accompanying scripts were developped by Maxime Lucas and Pau Clusella.  
 Thanks to Thomas Kreuz for useful feedback and advice.  
