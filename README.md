@@ -1,4 +1,4 @@
-# AMCOS_booklet:<br/> a LaTeX template for a conference book of abstracts
+# AMCOS_booklet:  a LaTeX template for a conference book of abstracts
 
 ## What?
 
