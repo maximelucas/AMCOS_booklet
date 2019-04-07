@@ -10,7 +10,7 @@ Example conferences booklets using the AMCOS booklet template:
 - AMCOS: [pdf](https://amcos.files.wordpress.com/2018/07/booklet_updated_july.pdf) of long version, conference [website](https://amcosconference.com/)
 - COMPENG 2018: [pdf](http://compeng2018.ieeesezioneitalia.it/wp-content/uploads/2018/10/booklet_corretto3.pdf) of long version, conference [website](http://compeng2018.ieeesezioneitalia.it/)
 - WiN COSTNET: [pdf](https://github.com/luisacutillo78/WiN-Workshop/blob/master/main.pdf) of long version, conference [website](https://win.leeds.ac.uk/)
-
+- FoF 2019: [pdf](http://fof.oac.uncor.edu/2019/wp-content/uploads/sites/3/2019/04/program_2.pdf) of long version, conference [website](http://fof.oac.uncor.edu/2019/)
 
 ### Features
 
