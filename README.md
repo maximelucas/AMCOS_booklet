@@ -14,7 +14,7 @@ Example conferences booklets using the AMCOS booklet template:
 - OR meets ML 2019: [pdf](https://www.euro-online.org/websites/or-in-practice/wp-content/uploads/sites/8/2019/04/OR_meets_ML_abstract_booklet_final.pdf), conference [website](https://www.eventbrite.com/e/operations-research-meets-machine-learning-how-to-get-the-most-of-both-worlds-to-achieve-excellent-tickets-53748030807#)
 - IMG 2019: [pdf](http://www.multigrid.org/img2019/public/static/img2018/images/booklet_online.pdf), conference [website](http://www.multigrid.org/img2019/)
 - ACA 2019: [pdf](http://s23466.pcdn.co/wp-content/uploads/2019/07/ACA2019_program-3.pdf), conference [website](http://aca2019.etsmtl.ca/)
-- ACA 2019: [pdf](https://www.bacg.co.uk/wp-content/uploads/2019/07/BACG50_booklet_online.pdf), conference [website](https://www.bacg.co.uk/bacg-50th-annual-conference/)
+- BACG 2019: [pdf](https://www.bacg.co.uk/wp-content/uploads/2019/07/BACG50_booklet_online.pdf), conference [website](https://www.bacg.co.uk/bacg-50th-annual-conference/)
 
 ### Features
 
