@@ -20,8 +20,6 @@ Already 10+ conferences have used the template: AMCOS ([pdf](https://amcos.files
 
 - Easily customisable in terms of layout, colours, and content.
 
-Disclaimer: the documentation is work in progress.
-
 ## How?
 
 ### Workflow
