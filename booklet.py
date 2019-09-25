@@ -1,6 +1,16 @@
 """
-Maxime Lucas
-Jan 2018
+This file is part of
+"AMCOS_booklet"
+Version 1.1 (04/07/2019)
+A LaTeX template for conference books of abstracts
+
+This template is available at:
+https://github.com/maximelucas/AMCOS_booklet
+
+License: GNU General Public License v3.0
+
+Author of this file:
+Maxime Lucas (ml.maximelucas@gmail.com)
 
 Directory structure:
 - booklet.py

@@ -1,6 +1,22 @@
 #!/bin/bash
 
-# need two compilations each, if not the vertical side color lines get messed up
+#======================================================
+# This file is part of
+# "AMCOS_booklet"
+# Version 1.1 (04/07/2019)
+# A LaTeX template for conference books of abstracts
+#
+# This template is available at:
+# https://github.com/maximelucas/AMCOS_booklet
+#
+# License: GNU General Public License v3.0
+#
+# Authors:
+# Maxime Lucas (ml.maximelucas@gmail.com)
+# Pau Clusella
+#=======================================================
+
+# need two compilations each: if not, the vertical side color lines get messed up
 # todo: check if can be made cleaner with latexmk
 
 # compile for online version
