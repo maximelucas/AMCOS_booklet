@@ -6,9 +6,7 @@ This is AMCOS_booklet, a LaTeX template for conference booklets, sometimes calle
 
 This template was originally created in 2018 for the AMCOS conference, a 5-day physics international conference about complex oscillatory systems: [https://amcosconference.com/](https://amcosconference.com/). 
 
-Already 10+ conferences have used the template: AMCOS ([pdf](https://amcos.files.wordpress.com/2018/07/booklet_updated_july.pdf), [website](https://amcosconference.com/)), COMPENG 2018 ([pdf](http://compeng2018.ieeesezioneitalia.it/wp-content/uploads/2018/10/booklet_corretto3.pdf), [website](http://compeng2018.ieeesezioneitalia.it/)), WiN COSTNET ([pdf](https://github.com/luisacutillo78/WiN-Workshop/blob/master/main.pdf), [website](https://win.leeds.ac.uk/)), FoF 2019 ([pdf](http://fof.oac.uncor.edu/2019/wp-content/uploads/sites/3/2019/04/program_3.pdf),  [website](http://fof.oac.uncor.edu/2019/)), OR meets ML 2019([pdf](https://www.euro-online.org/websites/or-in-practice/wp-content/uploads/sites/8/2019/04/OR_meets_ML_abstract_booklet_final.pdf), [website](https://www.eventbrite.com/e/operations-research-meets-machine-learning-how-to-get-the-most-of-both-worlds-to-achieve-excellent-tickets-53748030807#)), IMG 2019 ([pdf](http://www.multigrid.org/img2019/public/static/img2018/images/booklet_online.pdf), [website](http://www.multigrid.org/img2019/)), ACA 2019 ([pdf](http://s23466.pcdn.co/wp-content/uploads/2019/07/ACA2019_program-3.pdf), [website](http://aca2019.etsmtl.ca/)), BACG 2019 ([pdf](https://www.bacg.co.uk/wp-content/uploads/2019/07/BACG50_booklet_online.pdf), [website](https://www.bacg.co.uk/bacg-50th-annual-conference/)), Dynamics and physics of asteroids, TNOs and natural satellites in the new era of Gaia data ([pdf](https://github.com/maximelucas/AMCOS_booklet/blob/master/examples/antalya2019.pdf), [website](https://asteroid2019.space/)), EUSN 2019 ([pdf](https://github.com/maximelucas/AMCOS_booklet/blob/master/examples/EUSN019.pdf), [website](https://www.eusn2019.ethz.ch/)), SOMENS ([pdf](https://github.com/maximelucas/AMCOS_booklet/blob/master/examples/SOMENS019.pdf), [website](https://mensurationists.com/)), ...
-
-See the "examples" folders!
+Already 10+ conferences have used the template: AMCOS ([pdf](https://amcos.files.wordpress.com/2018/07/booklet_updated_july.pdf), [website](https://amcosconference.com/)), COMPENG 2018 ([pdf](http://compeng2018.ieeesezioneitalia.it/wp-content/uploads/2018/10/booklet_corretto3.pdf), [website](http://compeng2018.ieeesezioneitalia.it/)), WiN COSTNET ([pdf](https://github.com/luisacutillo78/WiN-Workshop/blob/master/main.pdf), [website](https://win.leeds.ac.uk/)), FoF 2019 ([pdf](http://fof.oac.uncor.edu/2019/wp-content/uploads/sites/3/2019/04/program_3.pdf),  [website](http://fof.oac.uncor.edu/2019/)), OR meets ML 2019([pdf](https://www.euro-online.org/websites/or-in-practice/wp-content/uploads/sites/8/2019/04/OR_meets_ML_abstract_booklet_final.pdf), [website](https://www.eventbrite.com/e/operations-research-meets-machine-learning-how-to-get-the-most-of-both-worlds-to-achieve-excellent-tickets-53748030807#)), IMG 2019 ([pdf](http://www.multigrid.org/img2019/public/static/img2018/images/booklet_online.pdf), [website](http://www.multigrid.org/img2019/)), ACA 2019 ([pdf](http://s23466.pcdn.co/wp-content/uploads/2019/07/ACA2019_program-3.pdf), [website](http://aca2019.etsmtl.ca/)), BACG 2019 ([pdf](https://www.bacg.co.uk/wp-content/uploads/2019/07/BACG50_booklet_online.pdf), [website](https://www.bacg.co.uk/bacg-50th-annual-conference/)), Dynamics and physics of asteroids, TNOs and natural satellites in the new era of Gaia data ([pdf](https://github.com/maximelucas/AMCOS_booklet/blob/master/examples/antalya2019.pdf), [website](https://asteroid2019.space/)), EUSN 2019 ([pdf](https://github.com/maximelucas/AMCOS_booklet/blob/master/examples/EUSN019.pdf), [website](https://www.eusn2019.ethz.ch/)), SOMENS ([pdf](https://github.com/maximelucas/AMCOS_booklet/blob/master/examples/SOMENS019.pdf), [website](https://mensurationists.com/)), ... **See the "examples" folder**!
 
 ### Features
 
@@ -89,13 +87,13 @@ Abstract version without references or figures.
 ### How to cite
 
 Please acknowledge any use of this template and explicitly link to this page with:  
-`The open LaTeX template used to generate this booklet is available at https://github.com/maximelucas/AMCOS_booklet.`  
+`The open-source LaTeX template, AMCOS_booklet, used to generate this booklet is available at https://github.com/maximelucas/AMCOS\_booklet`  
 
 We'd be happy to hear about your booklet, and include it in our list above!
 
 ### Contact
 
-For any comments, suggestions, or questions, please contact us at ml.maximelucas [at] gmail.com.  
+For any comments, suggestions, or questions, or to contribute, please contact us at ml.maximelucas [at] gmail.com.  
 
 ### Credits 
 
