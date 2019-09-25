@@ -2,19 +2,13 @@
 
 ## What?
 
-This is AMCOS_booklet, a LaTeX template for conference booklets, sometimes called book of abstracts. It includes an additional python script to automatise the management and inclusion of abstracts. The template also has an option to compile a short and a long version of the booklet, for print and online use, for example. The template is ready to use as is, but also easily customisable for willing users.
+This is AMCOS_booklet, a LaTeX template for conference booklets, sometimes called books of abstracts. It includes an additional python script to automatise the management and inclusion of abstracts. The template also has an option to compile a short and a long version of the booklet, for print and online use, for example. The template is **ready to use** as is, and **easily customisable** for willing users.
 
 This template was originally created in 2018 for the AMCOS conference, a 5-day physics international conference about complex oscillatory systems: [https://amcosconference.com/](https://amcosconference.com/). 
 
-Example conferences booklets using the AMCOS booklet template:
-- AMCOS: [pdf](https://amcos.files.wordpress.com/2018/07/booklet_updated_july.pdf) of long version, conference [website](https://amcosconference.com/)
-- COMPENG 2018: [pdf](http://compeng2018.ieeesezioneitalia.it/wp-content/uploads/2018/10/booklet_corretto3.pdf) of long version, conference [website](http://compeng2018.ieeesezioneitalia.it/)
-- WiN COSTNET: [pdf](https://github.com/luisacutillo78/WiN-Workshop/blob/master/main.pdf) of long version, conference [website](https://win.leeds.ac.uk/)
-- FoF 2019: [pdf](http://fof.oac.uncor.edu/2019/wp-content/uploads/sites/3/2019/04/program_3.pdf) of long version, conference [website](http://fof.oac.uncor.edu/2019/)
-- OR meets ML 2019: [pdf](https://www.euro-online.org/websites/or-in-practice/wp-content/uploads/sites/8/2019/04/OR_meets_ML_abstract_booklet_final.pdf), conference [website](https://www.eventbrite.com/e/operations-research-meets-machine-learning-how-to-get-the-most-of-both-worlds-to-achieve-excellent-tickets-53748030807#)
-- IMG 2019: [pdf](http://www.multigrid.org/img2019/public/static/img2018/images/booklet_online.pdf), conference [website](http://www.multigrid.org/img2019/)
-- ACA 2019: [pdf](http://s23466.pcdn.co/wp-content/uploads/2019/07/ACA2019_program-3.pdf), conference [website](http://aca2019.etsmtl.ca/)
-- BACG 2019: [pdf](https://www.bacg.co.uk/wp-content/uploads/2019/07/BACG50_booklet_online.pdf), conference [website](https://www.bacg.co.uk/bacg-50th-annual-conference/)
+Already 10+ conferences have used the template: AMCOS ([pdf](https://amcos.files.wordpress.com/2018/07/booklet_updated_july.pdf), [website](https://amcosconference.com/)), COMPENG 2018 ([pdf](http://compeng2018.ieeesezioneitalia.it/wp-content/uploads/2018/10/booklet_corretto3.pdf), [website](http://compeng2018.ieeesezioneitalia.it/)), WiN COSTNET ([pdf](https://github.com/luisacutillo78/WiN-Workshop/blob/master/main.pdf), [website](https://win.leeds.ac.uk/)), FoF 2019 ([pdf](http://fof.oac.uncor.edu/2019/wp-content/uploads/sites/3/2019/04/program_3.pdf),  [website](http://fof.oac.uncor.edu/2019/)), OR meets ML 2019([pdf](https://www.euro-online.org/websites/or-in-practice/wp-content/uploads/sites/8/2019/04/OR_meets_ML_abstract_booklet_final.pdf), [website](https://www.eventbrite.com/e/operations-research-meets-machine-learning-how-to-get-the-most-of-both-worlds-to-achieve-excellent-tickets-53748030807#)), IMG 2019 ([pdf](http://www.multigrid.org/img2019/public/static/img2018/images/booklet_online.pdf), [website](http://www.multigrid.org/img2019/)), ACA 2019 ([pdf](http://s23466.pcdn.co/wp-content/uploads/2019/07/ACA2019_program-3.pdf), [website](http://aca2019.etsmtl.ca/)), BACG 2019 ([pdf](https://www.bacg.co.uk/wp-content/uploads/2019/07/BACG50_booklet_online.pdf), [website](https://www.bacg.co.uk/bacg-50th-annual-conference/)), Dynamics and physics of asteroids, TNOs and natural satellites in the new era of Gaia data ([pdf](https://github.com/maximelucas/AMCOS_booklet/blob/master/examples/antalya2019.pdf), [website](https://asteroid2019.space/)), EUSN 2019 ([pdf](https://github.com/maximelucas/AMCOS_booklet/blob/master/examples/EUSN019.pdf), [website](https://www.eusn2019.ethz.ch/)), SOMENS ([pdf](https://github.com/maximelucas/AMCOS_booklet/blob/master/examples/SOMENS019.pdf), [website](https://mensurationists.com/)), ...
+
+See the "examples" folders!
 
 ### Features
 
